@@ -1,0 +1,14 @@
+{
+  "target": "MA2GeSnI4Br2",
+  "sn_not_in_training_set": true,
+  "sn_radius_A": 1.18,
+  "sn_pauling_chi": 1.96,
+  "ge_radius_A": 0.73,
+  "ge_pauling_chi": 2.01,
+  "n_configurations": 6,
+  "n_bandgap_predictions": 6,
+  "predicted_PBE_bandgap_eV_min": 1.139814480982479,
+  "predicted_PBE_bandgap_eV_max": 1.6570048227853564,
+  "predicted_PBE_bandgap_eV_mean": 1.251155866670551,
+  "limitation": "Sn is absent from the saved models' categorical vocabulary; numeric Sn descriptors are used, categorical Sn one-hots are ignored. Saved models omit X2/X3-selected features, so halide permutations with the same X1 give identical scores."
+}

@@ -1,0 +1,7 @@
+﻿System,Formula,A_site,B_site,Bprime_site,X1_site,X2_site,X3_site,Br_count,I_count,r_B,r_B′,χ_B,χ_B′,r_X1,χ_X1,probability_perovskite,predicted_perovskite,probability_Eg_gt_0p2,predicted_Eg_gt_0p2_class,predicted_PBE_bandgap_eV,screening_stage,note_Sn_OOD
+MA-Ge-Sn-BrII,MA2GeSnI4Br2,MA,Ge,Sn,Br,I,I,2,4,0.73,1.18,2.01,1.96,1.96,2.96,0.9716470929348985,1,0.8636411780165504,1.0,1.139814480982479,bandgap_regression_completed,True
+MA-Ge-Sn-IBrI,MA2GeSnI4Br2,MA,Ge,Sn,I,Br,I,2,4,0.73,1.18,2.01,1.96,2.2,2.66,0.9804530580462331,1,0.8636411780165504,1.0,1.1673574678590044,bandgap_regression_completed,True
+MA-Ge-Sn-IIBr,MA2GeSnI4Br2,MA,Ge,Sn,I,I,Br,2,4,0.73,1.18,2.01,1.96,2.2,2.66,0.9804530580462331,1,0.8636411780165504,1.0,1.1673574678590044,bandgap_regression_completed,True
+MA-Sn-Ge-BrII,MA2SnGeI4Br2,MA,Sn,Ge,Br,I,I,2,4,1.18,0.73,1.96,2.01,1.96,2.96,0.9930124640289884,1,0.7229077367466861,1.0,1.6570048227853564,bandgap_regression_completed,True
+MA-Sn-Ge-IBrI,MA2SnGeI4Br2,MA,Sn,Ge,I,Br,I,2,4,1.18,0.73,1.96,2.01,2.2,2.66,0.9957970331245392,1,0.7229077367466861,1.0,1.18770048026873,bandgap_regression_completed,True
+MA-Sn-Ge-IIBr,MA2SnGeI4Br2,MA,Sn,Ge,I,I,Br,2,4,1.18,0.73,1.96,2.01,2.2,2.66,0.9957970331245392,1,0.7229077367466861,1.0,1.18770048026873,bandgap_regression_completed,True

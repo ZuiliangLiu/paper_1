@@ -1,0 +1,5 @@
+﻿B_site,Bprime_site,X1_site,n_configs,probability_perovskite,predicted_perovskite,probability_Eg_gt_0p2,predicted_PBE_bandgap_eV,screening_stage
+Ge,Sn,Br,1,0.9716470929348985,1,0.8636411780165504,1.139814480982479,bandgap_regression_completed
+Ge,Sn,I,2,0.9804530580462331,1,0.8636411780165504,1.1673574678590044,bandgap_regression_completed
+Sn,Ge,Br,1,0.9930124640289884,1,0.7229077367466861,1.6570048227853564,bandgap_regression_completed
+Sn,Ge,I,2,0.9957970331245392,1,0.7229077367466861,1.18770048026873,bandgap_regression_completed
