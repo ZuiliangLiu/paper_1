@@ -1,0 +1,43 @@
+{
+  "structure_auc": 0.9543945578231292,
+  "gap_class_auc": 0.9889240506329113,
+  "regression_r2": 0.9191603608766392,
+  "regression_mse_eV": 0.12351562925999794,
+  "counts": {
+    "structure_test": 280,
+    "gap_class_test": 175,
+    "gap_reg_test": 79
+  },
+  "structure_top_features": {
+    "r_B + r_B′": 41.76,
+    "r_A / r_B": 13.756,
+    "r_B + r_X1": 11.195,
+    "B_site": 11.049,
+    "χ_B + χ_B′": 8.601,
+    "Bprime_site": 7.875,
+    "χ_B′ + χ_X1": 5.765
+  },
+  "gap_class_top_features": {
+    "B_site": 22.547,
+    "χ_B": 14.791,
+    "r_B": 14.432,
+    "r_B′": 10.081,
+    "r_B / r_B′": 9.814,
+    "Bprime_site": 9.731,
+    "χ_B − χ_B′": 9.362,
+    "r_B + r_B′": 9.241
+  },
+  "gap_reg_top_features": {
+    "χ_B + χ_B′": 57.859,
+    "r_B′ − r_X1": 10.117,
+    "χ_B − χ_X1": 9.473,
+    "χ_B′ − χ_X1": 6.601,
+    "χ_B / χ_X1": 4.518,
+    "χ_B / χ_B′": 3.345,
+    "Bprime_site": 3.123,
+    "r_A + r_X1": 2.5,
+    "r_B′ / r_X1": 2.463
+  },
+  "no_confusion_matrix": true,
+  "importance_source": "pipeline model.feature_importances_ aggregated to original inputs"
+}
