@@ -1,0 +1,85 @@
+{
+  "structure": {
+    "known_rows": 1398,
+    "candidate_rows": 6990,
+    "unique_encoded_inputs": 1398,
+    "base_value": 0.913765934209446,
+    "output_units": "log-odds for perovskite class 1",
+    "max_additivity_error": 8.881784197001252e-15,
+    "selected_features": [
+      "r_A / r_B",
+      "r_B + r_B′",
+      "r_B + r_X1",
+      "χ_B + χ_B′",
+      "χ_B′ + χ_X1",
+      "B_site",
+      "Bprime_site"
+    ],
+    "categorical_attribution": "sum of Tree SHAP values for one-hot columns of each original category"
+  },
+  "bandgap": {
+    "known_rows": 392,
+    "candidate_rows": 2015,
+    "unique_encoded_inputs": 426,
+    "base_value": 2.18672139256721,
+    "output_units": "eV",
+    "max_additivity_error": 5.773159728050814e-15,
+    "selected_features": [
+      "r_A + r_X1",
+      "r_B′ − r_X1",
+      "r_B′ / r_X1",
+      "χ_B + χ_B′",
+      "χ_B / χ_B′",
+      "χ_B − χ_X1",
+      "χ_B / χ_X1",
+      "χ_B′ − χ_X1",
+      "Bprime_site"
+    ],
+    "categorical_attribution": "sum of Tree SHAP values for one-hot columns of each original category"
+  },
+  "shap_version": "0.50.0",
+  "feature_perturbation": "tree_path_dependent",
+  "model_output": "raw",
+  "trend_lines": {
+    "reference_0": {
+      "feature": "r_B + r_B′",
+      "slope": 5.5495858110679395,
+      "intercept": -10.075682823887337,
+      "fit_population": "known train + test only"
+    },
+    "reference_2": {
+      "feature": "χ_B + χ_B′",
+      "slope": -1.0768341108077177,
+      "intercept": 3.5267013314017883,
+      "fit_population": "known train + test only"
+    },
+    "used_features_0": {
+      "feature": "r_B + r_B′",
+      "slope": 5.5495858110679395,
+      "intercept": -10.075682823887337,
+      "fit_population": "known train + test only"
+    },
+    "used_features_1": {
+      "feature": "r_A / r_B",
+      "slope": -0.3227724090537076,
+      "intercept": 1.1444907991232747,
+      "fit_population": "known train + test only"
+    },
+    "used_features_2": {
+      "feature": "χ_B + χ_B′",
+      "slope": -1.0768341108077177,
+      "intercept": 3.5267013314017883,
+      "fit_population": "known train + test only"
+    },
+    "used_features_3": {
+      "feature": "χ_B′ − χ_X1",
+      "slope": -0.24557451752836784,
+      "intercept": -0.30560960103173473,
+      "fit_population": "known train + test only"
+    }
+  },
+  "method_source": "https://shap.readthedocs.io/en/latest/generated/shap.TreeExplainer.html",
+  "unused_feature_policy": "0 direct contribution for features dropped from the saved pipeline",
+  "no_model_retraining": true,
+  "interpretation": "model attributions, not causal effects; correlated engineered inputs can share credit"
+}

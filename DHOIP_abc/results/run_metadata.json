@@ -1,0 +1,35 @@
+{
+  "input_sha256": {
+    "models/01_structure_GBC.joblib": "ee20f802e85f763524b278b682f7c294569e9d2d0fed448fcf4f629fa7253c4a",
+    "models/02_bandgap_GBC.joblib": "d642eb0e902c7e020ed1ca40145c03d1be20b2002aa2bc49a6d859964b10b76b",
+    "models/03_bandgap_GBR.joblib": "93735e838cb403382e4dc5cf3ae127af9adf0a9fe2d85e39c7cb26d757a07193",
+    "data/candidates.csv": "08a9608109b0244f5e39e3a679de1d7d7bcb727034705e68a42e39fee8d9356e",
+    "data/training_data.csv": "9d75d9e30ea3ed080e444a0f55796acbcae37005411b01c65f6981ed33eaa0ba",
+    "data/splits.csv": "ad7fc10009d7fa68b13544f3677d715e09540891fc308d088e5ca054d0403277"
+  },
+  "screening_counts": {
+    "all_candidate_configurations": 6990,
+    "predicted_perovskite": 4560,
+    "predicted_non_perovskite": 2430,
+    "gap_classifier_pass_and_regression_completed": 2015,
+    "gap_classifier_reject_after_structure_pass": 2545,
+    "regression_Eg_le_0p2_after_classifier_pass": 0,
+    "selected_unique_compositions": 990,
+    "known_DFT_comparison_rows": 392
+  },
+  "candidate_predictions_are_DFT": false,
+  "candidate_unit": "paired-halide-site configuration; formulas can repeat",
+  "classification_rule": "saved Pipeline.predict; positive label 1; default probability threshold 0.5",
+  "regression_scope": "only candidates passing both classifiers; other predictions remain blank",
+  "gap_min_eV": 0.3269841411738911,
+  "gap_max_eV": 5.7366602721563735,
+  "known_DFT_scope": "true perovskite=1 and true PBE gap >0.2 eV; original train and test partitions",
+  "X_radius_mean": "(r_X1+r_X2+r_X3)/3; each slot represents 2 halide atoms",
+  "electronegativity_scale": "positive Pauling values from current dataset; no sign reversal to mimic paper",
+  "limitations": [
+    "All three saved models omit X2/X3-dependent selected features; mixed-halide discrimination is limited.",
+    "Same selected model features can produce repeated values; no jitter or synthetic noise is added.",
+    "Known DFT vs candidate distribution is not an accuracy evaluation for unlabeled candidates.",
+    "Structure classification does not establish thermodynamic, dynamical or thermal stability."
+  ]
+}

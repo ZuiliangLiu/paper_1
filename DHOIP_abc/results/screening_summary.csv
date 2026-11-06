@@ -1,0 +1,9 @@
+﻿item,count
+all_candidate_configurations,6990
+predicted_perovskite,4560
+predicted_non_perovskite,2430
+gap_classifier_pass_and_regression_completed,2015
+gap_classifier_reject_after_structure_pass,2545
+regression_Eg_le_0p2_after_classifier_pass,0
+selected_unique_compositions,990
+known_DFT_comparison_rows,392

@@ -1,0 +1,9 @@
+﻿figure,panel,model,feature,selected_by_model,note
+reference,a,structure,r_B + r_B′,true,
+reference,b,structure,r_A − r_B,false,not selected by saved model; SHAP=0
+reference,c,bandgap,χ_B + χ_B′,true,positive Pauling electronegativity values
+reference,d,bandgap,χ_B′ − χ_X2,false,not selected by saved model; SHAP=0
+used_features,a,structure,r_B + r_B′,true,same as reference
+used_features,b,structure,r_A / r_B,true,replaces the unused radius difference
+used_features,c,bandgap,χ_B + χ_B′,true,same as reference
+used_features,d,bandgap,χ_B′ − χ_X1,true,replaces the unused X2 feature with the selected X1 feature
